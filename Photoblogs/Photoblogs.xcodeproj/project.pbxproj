@@ -1,0 +1,1130 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08112D8D1346418D005190B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08112D8C1346418D005190B8 /* UIKit.framework */; };
+		08112D8F1346418D005190B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08112D8E1346418D005190B8 /* Foundation.framework */; };
+		08112D911346418D005190B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08112D901346418D005190B8 /* CoreGraphics.framework */; };
+		08112D971346418D005190B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08112D951346418D005190B8 /* InfoPlist.strings */; };
+		08112DA01346418D005190B8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08112D9E1346418D005190B8 /* MainWindow.xib */; };
+		08112DAA134641E5005190B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08112D8C1346418D005190B8 /* UIKit.framework */; };
+		08112DAB134641E5005190B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08112D8E1346418D005190B8 /* Foundation.framework */; };
+		08112DAC134641E5005190B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08112D901346418D005190B8 /* CoreGraphics.framework */; };
+		08112DB2134641E5005190B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08112DB0134641E5005190B8 /* InfoPlist.strings */; };
+		08112DBB134641E5005190B8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08112DB9134641E5005190B8 /* MainWindow.xib */; };
+		0817F8A41354CAD200C5713B /* Cover-Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0817F8A01354CAD200C5713B /* Cover-Default.png */; };
+		0817F8A51354CAD200C5713B /* Cover-New Photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 0817F8A11354CAD200C5713B /* Cover-New Photos.png */; };
+		0817F8A61354CAD200C5713B /* Cover-Starred Photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 0817F8A21354CAD200C5713B /* Cover-Starred Photos.png */; };
+		0817F8A71354CAD200C5713B /* Cover-Subscriptions.png in Resources */ = {isa = PBXBuildFile; fileRef = 0817F8A31354CAD200C5713B /* Cover-Subscriptions.png */; };
+		08647BFC1349668600796419 /* PBLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08647BF91349667F00796419 /* PBLabel.m */; };
+		08647BFD1349668600796419 /* PBLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08647BF91349667F00796419 /* PBLabel.m */; };
+		08647C08134969C400796419 /* PBSubscriptionsViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08647C07134969C400796419 /* PBSubscriptionsViewerController.m */; };
+		08647C09134969C500796419 /* PBSubscriptionsViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08647C07134969C400796419 /* PBSubscriptionsViewerController.m */; };
+		08647C0C13496BC800796419 /* PBGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08647C0B13496BC700796419 /* PBGridView.m */; };
+		08647C0D13496BC800796419 /* PBGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08647C0B13496BC700796419 /* PBGridView.m */; };
+		08647C461349780A00796419 /* PBGridViewThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 08647C451349780700796419 /* PBGridViewThumb.m */; };
+		08647C471349780A00796419 /* PBGridViewThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 08647C451349780700796419 /* PBGridViewThumb.m */; };
+		08647C4B134987E300796419 /* PBSubscriptionGridViewThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 08647C4A134987DE00796419 /* PBSubscriptionGridViewThumb.m */; };
+		08647C4C134987E300796419 /* PBSubscriptionGridViewThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 08647C4A134987DE00796419 /* PBSubscriptionGridViewThumb.m */; };
+		08647C69134A02DC00796419 /* Cover-New Photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 08647C68134A02DB00796419 /* Cover-New Photos.png */; };
+		086D0D9C135E1444003593DA /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 086D0D9B135E1444003593DA /* iTunesArtwork.png */; };
+		086D0D9D135E1444003593DA /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 086D0D9B135E1444003593DA /* iTunesArtwork.png */; };
+		08794C1A134653C7004A6270 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 08794C19134653C7004A6270 /* Icon-Small.png */; };
+		08794C1B134653C7004A6270 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 08794C19134653C7004A6270 /* Icon-Small.png */; };
+		08794C221346544E004A6270 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 08794C1D1346544E004A6270 /* Default.png */; };
+		08794C231346544E004A6270 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08794C1E1346544E004A6270 /* Default@2x.png */; };
+		08794C241346544E004A6270 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08794C1F1346544E004A6270 /* Icon-Small@2x.png */; };
+		08794C251346544E004A6270 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 08794C201346544E004A6270 /* Icon.png */; };
+		08794C261346544E004A6270 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08794C211346544E004A6270 /* Icon@2x.png */; };
+		08794C6A1346B0B0004A6270 /* libBeaufieldUtilitiesLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08794C661346B0B0004A6270 /* libBeaufieldUtilitiesLib.a */; };
+		08794C6B1346B0B0004A6270 /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08794C671346B0B0004A6270 /* libFMDB.a */; };
+		08794C6C1346B0B0004A6270 /* libGDataTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08794C681346B0B0004A6270 /* libGDataTouchStaticLib.a */; };
+		08794C6D1346B0B0004A6270 /* libGoogleReaderLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08794C691346B0B0004A6270 /* libGoogleReaderLib.a */; };
+		08794C7C1346BAE0004A6270 /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C6F1346BAE0004A6270 /* PBAppDelegate.m */; };
+		08794C7D1346BAE0004A6270 /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C6F1346BAE0004A6270 /* PBAppDelegate.m */; };
+		08794C821346BAE0004A6270 /* PBFetchPhotoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C751346BAE0004A6270 /* PBFetchPhotoOperation.m */; };
+		08794C831346BAE0004A6270 /* PBFetchPhotoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C751346BAE0004A6270 /* PBFetchPhotoOperation.m */; };
+		08794C841346BAE0004A6270 /* PBGoogleReaderAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C771346BAE0004A6270 /* PBGoogleReaderAccount.m */; };
+		08794C851346BAE0004A6270 /* PBGoogleReaderAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C771346BAE0004A6270 /* PBGoogleReaderAccount.m */; };
+		08794C861346BAE0004A6270 /* PBPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C791346BAE0004A6270 /* PBPhotoManager.m */; };
+		08794C871346BAE0004A6270 /* PBPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C791346BAE0004A6270 /* PBPhotoManager.m */; };
+		08794C881346BAE0004A6270 /* PBUserCredentialsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C7B1346BAE0004A6270 /* PBUserCredentialsController.m */; };
+		08794C891346BAE0004A6270 /* PBUserCredentialsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C7B1346BAE0004A6270 /* PBUserCredentialsController.m */; };
+		08794C981346BB59004A6270 /* PBAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C8B1346BB58004A6270 /* PBAppSettings.m */; };
+		08794C991346BB59004A6270 /* PBAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C8B1346BB58004A6270 /* PBAppSettings.m */; };
+		08794C9A1346BB59004A6270 /* PBEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C8D1346BB58004A6270 /* PBEntry.m */; };
+		08794C9B1346BB59004A6270 /* PBEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C8D1346BB58004A6270 /* PBEntry.m */; };
+		08794C9E1346BB59004A6270 /* PBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C911346BB58004A6270 /* PBModel.m */; };
+		08794C9F1346BB59004A6270 /* PBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C911346BB58004A6270 /* PBModel.m */; };
+		08794CA01346BB59004A6270 /* PBPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C931346BB58004A6270 /* PBPhoto.m */; };
+		08794CA11346BB59004A6270 /* PBPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C931346BB58004A6270 /* PBPhoto.m */; };
+		08794CA21346BB59004A6270 /* PBSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C951346BB58004A6270 /* PBSubscription.m */; };
+		08794CA31346BB59004A6270 /* PBSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C951346BB58004A6270 /* PBSubscription.m */; };
+		08794CA41346BB59004A6270 /* PBSubscriptionHeuristics.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C971346BB58004A6270 /* PBSubscriptionHeuristics.m */; };
+		08794CA51346BB59004A6270 /* PBSubscriptionHeuristics.m in Sources */ = {isa = PBXBuildFile; fileRef = 08794C971346BB58004A6270 /* PBSubscriptionHeuristics.m */; };
+		08794CA71346BE8B004A6270 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08794CA61346BE8B004A6270 /* Security.framework */; };
+		08794CA91346BED2004A6270 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08794CA81346BED2004A6270 /* CoreData.framework */; };
+		08794CB01346C135004A6270 /* PhotoBlogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08794CAE1346C133004A6270 /* PhotoBlogs.xcdatamodeld */; };
+		08794CB11346C135004A6270 /* PhotoBlogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08794CAE1346C133004A6270 /* PhotoBlogs.xcdatamodeld */; };
+		08794CB31346C449004A6270 /* PBUserCredentialsController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08794CB21346C448004A6270 /* PBUserCredentialsController_iPad.xib */; };
+		08794CB51346C461004A6270 /* PBUserCredentialsController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08794CB41346C460004A6270 /* PBUserCredentialsController_iPhone.xib */; };
+		08794CB71346C4BD004A6270 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08794CB61346C4BD004A6270 /* Entitlements.plist */; };
+		08794CB81346C4BD004A6270 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08794CB61346C4BD004A6270 /* Entitlements.plist */; };
+		08794CC21346D187004A6270 /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08794CBD1346D185004A6270 /* libFMDB.a */; };
+		08794CC41346D187004A6270 /* libGoogleReaderLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08794CBF1346D185004A6270 /* libGoogleReaderLib.a */; };
+		08794CC61346D191004A6270 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08794CC51346D190004A6270 /* Security.framework */; };
+		08794CC81346D1AC004A6270 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08794CC71346D1AA004A6270 /* UIKit.framework */; };
+		08794CCA1346D1BE004A6270 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08794CC91346D1BD004A6270 /* CoreData.framework */; };
+		08794CCC1346D200004A6270 /* libBeaufieldUtilitiesLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08794CCB1346D1FE004A6270 /* libBeaufieldUtilitiesLib.a */; };
+		08794CCE1346D20C004A6270 /* libGDataTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08794CCD1346D20A004A6270 /* libGDataTouchStaticLib.a */; };
+		087DB5341355F9F500F2C63C /* Thumb-More.png in Resources */ = {isa = PBXBuildFile; fileRef = 087DB5331355F9F500F2C63C /* Thumb-More.png */; };
+		087DB5361355FA1000F2C63C /* Thumb-More.png in Resources */ = {isa = PBXBuildFile; fileRef = 087DB5351355FA1000F2C63C /* Thumb-More.png */; };
+		087DB5531355FCE200F2C63C /* PBSubscriptionPortfolioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087DB5481355FCDE00F2C63C /* PBSubscriptionPortfolioController.m */; };
+		087DB5541355FCE200F2C63C /* PBSubscriptionPortfolioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087DB5481355FCDE00F2C63C /* PBSubscriptionPortfolioController.m */; };
+		087DB5551355FCE200F2C63C /* PBSubscriptionPortfolioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 087DB54A1355FCE000F2C63C /* PBSubscriptionPortfolioView.m */; };
+		087DB5561355FCE200F2C63C /* PBSubscriptionPortfolioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 087DB54A1355FCE000F2C63C /* PBSubscriptionPortfolioView.m */; };
+		087DB55B13560BDE00F2C63C /* PBEntryPhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087DB55813560BDC00F2C63C /* PBEntryPhotosController.m */; };
+		087DB55C13560BDE00F2C63C /* PBEntryPhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087DB55813560BDC00F2C63C /* PBEntryPhotosController.m */; };
+		087DB55D13560BDE00F2C63C /* PBEntryPhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 087DB55A13560BDE00F2C63C /* PBEntryPhotosView.m */; };
+		087DB55E13560BDE00F2C63C /* PBEntryPhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 087DB55A13560BDE00F2C63C /* PBEntryPhotosView.m */; };
+		087DB5631356182400F2C63C /* PBPhotoFrameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087DB5601356181E00F2C63C /* PBPhotoFrameController.m */; };
+		087DB5641356182400F2C63C /* PBPhotoFrameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087DB5601356181E00F2C63C /* PBPhotoFrameController.m */; };
+		087DB5651356182400F2C63C /* PBPhotoFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 087DB5621356182100F2C63C /* PBPhotoFrameView.m */; };
+		087DB5661356182400F2C63C /* PBPhotoFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 087DB5621356182100F2C63C /* PBPhotoFrameView.m */; };
+		0881378B134AB62500FE944A /* PBSubscriptionPhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0881378A134AB62500FE944A /* PBSubscriptionPhotosController.m */; };
+		0881378C134AB62500FE944A /* PBSubscriptionPhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0881378A134AB62500FE944A /* PBSubscriptionPhotosController.m */; };
+		0881378F134AC3A300FE944A /* PBPhotoGridViewThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 0881378E134AC3A200FE944A /* PBPhotoGridViewThumb.m */; };
+		08813790134AC3A300FE944A /* PBPhotoGridViewThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 0881378E134AC3A200FE944A /* PBPhotoGridViewThumb.m */; };
+		08A3E8B1141932080065F0F7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A3E8B0141932080065F0F7 /* SystemConfiguration.framework */; };
+		08A3E8B2141932280065F0F7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A3E8B0141932080065F0F7 /* SystemConfiguration.framework */; };
+		08A5647113475FD1006D1336 /* PBPasscodeScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A5647013475FCA006D1336 /* PBPasscodeScreenController.m */; };
+		08A5647213475FD1006D1336 /* PBPasscodeScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A5647013475FCA006D1336 /* PBPasscodeScreenController.m */; };
+		08A56475134766D8006D1336 /* PBPasscodeScreenController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08A56474134766D7006D1336 /* PBPasscodeScreenController_iPad.xib */; };
+		08A5647713483C0E006D1336 /* PBPasscodeScreenController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08A5647613483C07006D1336 /* PBPasscodeScreenController_iPhone.xib */; };
+		08A5649B13484174006D1336 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 08A5649A13484174006D1336 /* Settings.bundle */; };
+		08A5649D13484180006D1336 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 08A5649C13484180006D1336 /* Settings.bundle */; };
+		08B6F4FB135FD47900F73AB0 /* PBFetchPageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6F4FA135FD47900F73AB0 /* PBFetchPageOperation.m */; };
+		08B6F4FC135FD47900F73AB0 /* PBFetchPageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6F4FA135FD47900F73AB0 /* PBFetchPageOperation.m */; };
+		08B6F500135FD68200F73AB0 /* PBPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6F4FF135FD68100F73AB0 /* PBPageManager.m */; };
+		08B6F501135FD68200F73AB0 /* PBPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6F4FF135FD68100F73AB0 /* PBPageManager.m */; };
+		08BC266B135B301B00B3EE6C /* PBSubscriptionsEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC266A135B301B00B3EE6C /* PBSubscriptionsEditorController.m */; };
+		08BC266C135B301B00B3EE6C /* PBSubscriptionsEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC266A135B301B00B3EE6C /* PBSubscriptionsEditorController.m */; };
+		08D546D9136281950049F12A /* Cover-Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08D546D4136281920049F12A /* Cover-Default@2x.png */; };
+		08D546DA136281950049F12A /* Cover-New Photos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08D546D5136281920049F12A /* Cover-New Photos@2x.png */; };
+		08D546DB136281950049F12A /* Cover-Starred Photos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08D546D6136281930049F12A /* Cover-Starred Photos@2x.png */; };
+		08D546DC136281950049F12A /* Cover-Subscriptions@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08D546D7136281940049F12A /* Cover-Subscriptions@2x.png */; };
+		08D546DD136281950049F12A /* Thumb-More@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08D546D8136281940049F12A /* Thumb-More@2x.png */; };
+		08E6DED91346490E00DD728A /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 08E6DED71346490E00DD728A /* iTunesArtwork */; };
+		08E6DEDA1346490E00DD728A /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 08E6DED71346490E00DD728A /* iTunesArtwork */; };
+		08E6DEE71346493F00DD728A /* Cover-Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E6DEDE1346493F00DD728A /* Cover-Default.png */; };
+		08E6DEE81346493F00DD728A /* Cover-Starred Photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E6DEDF1346493F00DD728A /* Cover-Starred Photos.png */; };
+		08E6DEE91346493F00DD728A /* Cover-Subscriptions.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E6DEE01346493F00DD728A /* Cover-Subscriptions.png */; };
+		08E6DEEA1346493F00DD728A /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E6DEE11346493F00DD728A /* Default-Landscape.png */; };
+		08E6DEEB1346493F00DD728A /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E6DEE21346493F00DD728A /* Default-Portrait.png */; };
+		08E6DEEC1346493F00DD728A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E6DEE31346493F00DD728A /* Default.png */; };
+		08E6DEED1346493F00DD728A /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E6DEE41346493F00DD728A /* Icon-72.png */; };
+		08E6DEEE1346493F00DD728A /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E6DEE51346493F00DD728A /* Icon-Small-50.png */; };
+		08E6DEF513464B6D00DD728A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E6DEF413464B6D00DD728A /* main.m */; };
+		08E6DEF613464B6D00DD728A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E6DEF413464B6D00DD728A /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08112D881346418D005190B8 /* PhotoBlogsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBlogsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08112D8C1346418D005190B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08112D8E1346418D005190B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08112D901346418D005190B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08112D941346418D005190B8 /* PhotoBlogsReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoBlogsReader-Info.plist"; sourceTree = "<group>"; };
+		08112D961346418D005190B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08112D981346418D005190B8 /* PhotoBlogsReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoBlogsReader-Prefix.pch"; sourceTree = "<group>"; };
+		08112D9F1346418D005190B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		08112DA8134641E5005190B8 /* PhotoBlogsReaderMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBlogsReaderMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08112DAF134641E5005190B8 /* PhotoBlogsReaderMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoBlogsReaderMobile-Info.plist"; sourceTree = "<group>"; };
+		08112DB1134641E5005190B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08112DB3134641E5005190B8 /* PhotoBlogsReaderMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoBlogsReaderMobile-Prefix.pch"; sourceTree = "<group>"; };
+		08112DBA134641E5005190B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0817F8A01354CAD200C5713B /* Cover-Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cover-Default.png"; path = "Images/Cover-Default.png"; sourceTree = "<group>"; };
+		0817F8A11354CAD200C5713B /* Cover-New Photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cover-New Photos.png"; path = "Images/Cover-New Photos.png"; sourceTree = "<group>"; };
+		0817F8A21354CAD200C5713B /* Cover-Starred Photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cover-Starred Photos.png"; path = "Images/Cover-Starred Photos.png"; sourceTree = "<group>"; };
+		0817F8A31354CAD200C5713B /* Cover-Subscriptions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cover-Subscriptions.png"; path = "Images/Cover-Subscriptions.png"; sourceTree = "<group>"; };
+		082EF95D136EF02400CC5DCD /* Release Notes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Release Notes.txt"; path = "Published/Release Notes.txt"; sourceTree = "<group>"; };
+		08647BF81349667900796419 /* PBLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBLabel.h; path = Shared/PBLabel.h; sourceTree = "<group>"; };
+		08647BF91349667F00796419 /* PBLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBLabel.m; path = Shared/PBLabel.m; sourceTree = "<group>"; };
+		08647C06134969C400796419 /* PBSubscriptionsViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBSubscriptionsViewerController.h; path = Controllers/PBSubscriptionsViewerController.h; sourceTree = "<group>"; };
+		08647C07134969C400796419 /* PBSubscriptionsViewerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBSubscriptionsViewerController.m; path = Controllers/PBSubscriptionsViewerController.m; sourceTree = "<group>"; };
+		08647C0A13496BC700796419 /* PBGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGridView.h; path = Controllers/PBGridView.h; sourceTree = "<group>"; };
+		08647C0B13496BC700796419 /* PBGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGridView.m; path = Controllers/PBGridView.m; sourceTree = "<group>"; };
+		08647C441349780600796419 /* PBGridViewThumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGridViewThumb.h; path = Controllers/PBGridViewThumb.h; sourceTree = "<group>"; };
+		08647C451349780700796419 /* PBGridViewThumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGridViewThumb.m; path = Controllers/PBGridViewThumb.m; sourceTree = "<group>"; };
+		08647C49134987DC00796419 /* PBSubscriptionGridViewThumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBSubscriptionGridViewThumb.h; path = Controllers/PBSubscriptionGridViewThumb.h; sourceTree = "<group>"; };
+		08647C4A134987DE00796419 /* PBSubscriptionGridViewThumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBSubscriptionGridViewThumb.m; path = Controllers/PBSubscriptionGridViewThumb.m; sourceTree = "<group>"; };
+		08647C68134A02DB00796419 /* Cover-New Photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cover-New Photos.png"; path = "Images/Cover-New Photos.png"; sourceTree = "<group>"; };
+		086D0D9B135E1444003593DA /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = Images/iTunesArtwork.png; sourceTree = "<group>"; };
+		08794C19134653C7004A6270 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Images/Icon-Small.png"; sourceTree = "<group>"; };
+		08794C1D1346544E004A6270 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
+		08794C1E1346544E004A6270 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Images/Default@2x.png"; sourceTree = "<group>"; };
+		08794C1F1346544E004A6270 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		08794C201346544E004A6270 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
+		08794C211346544E004A6270 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Images/Icon@2x.png"; sourceTree = "<group>"; };
+		08794C661346B0B0004A6270 /* libBeaufieldUtilitiesLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = libBeaufieldUtilitiesLib.a; path = "/Users/mircea/Library/Developer/Xcode/DerivedData/iOS-garahccjxvikxmdxnhnrmxpurnli/Build/Products/Debug-iphoneos/libBeaufieldUtilitiesLib.a"; sourceTree = "<absolute>"; };
+		08794C671346B0B0004A6270 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFMDB.a; sourceTree = SOURCE_ROOT; };
+		08794C681346B0B0004A6270 /* libGDataTouchStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGDataTouchStaticLib.a; sourceTree = SOURCE_ROOT; };
+		08794C691346B0B0004A6270 /* libGoogleReaderLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = libGoogleReaderLib.a; path = "/Users/mircea/Library/Developer/Xcode/DerivedData/iOS-garahccjxvikxmdxnhnrmxpurnli/Build/Products/Debug-iphoneos/libGoogleReaderLib.a"; sourceTree = "<absolute>"; };
+		08794C6E1346BAE0004A6270 /* PBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = PBAppDelegate.h; path = Shared/PBAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		08794C6F1346BAE0004A6270 /* PBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PBAppDelegate.m; path = Shared/PBAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		08794C741346BAE0004A6270 /* PBFetchPhotoOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = PBFetchPhotoOperation.h; path = Shared/PBFetchPhotoOperation.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		08794C751346BAE0004A6270 /* PBFetchPhotoOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PBFetchPhotoOperation.m; path = Shared/PBFetchPhotoOperation.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		08794C761346BAE0004A6270 /* PBGoogleReaderAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = PBGoogleReaderAccount.h; path = Shared/PBGoogleReaderAccount.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		08794C771346BAE0004A6270 /* PBGoogleReaderAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PBGoogleReaderAccount.m; path = Shared/PBGoogleReaderAccount.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		08794C781346BAE0004A6270 /* PBPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = PBPhotoManager.h; path = Shared/PBPhotoManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		08794C791346BAE0004A6270 /* PBPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PBPhotoManager.m; path = Shared/PBPhotoManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		08794C7A1346BAE0004A6270 /* PBUserCredentialsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = PBUserCredentialsController.h; path = Shared/PBUserCredentialsController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		08794C7B1346BAE0004A6270 /* PBUserCredentialsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PBUserCredentialsController.m; path = Shared/PBUserCredentialsController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		08794C8A1346BB58004A6270 /* PBAppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = PBAppSettings.h; path = Model/PBAppSettings.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		08794C8B1346BB58004A6270 /* PBAppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PBAppSettings.m; path = Model/PBAppSettings.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		08794C8C1346BB58004A6270 /* PBEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = PBEntry.h; path = Model/PBEntry.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		08794C8D1346BB58004A6270 /* PBEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PBEntry.m; path = Model/PBEntry.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		08794C901346BB58004A6270 /* PBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = PBModel.h; path = Model/PBModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		08794C911346BB58004A6270 /* PBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PBModel.m; path = Model/PBModel.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		08794C921346BB58004A6270 /* PBPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = PBPhoto.h; path = Model/PBPhoto.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		08794C931346BB58004A6270 /* PBPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PBPhoto.m; path = Model/PBPhoto.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		08794C941346BB58004A6270 /* PBSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = PBSubscription.h; path = Model/PBSubscription.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		08794C951346BB58004A6270 /* PBSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PBSubscription.m; path = Model/PBSubscription.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		08794C961346BB58004A6270 /* PBSubscriptionHeuristics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = PBSubscriptionHeuristics.h; path = Model/PBSubscriptionHeuristics.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		08794C971346BB58004A6270 /* PBSubscriptionHeuristics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PBSubscriptionHeuristics.m; path = Model/PBSubscriptionHeuristics.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		08794CA61346BE8B004A6270 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		08794CA81346BED2004A6270 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		08794CAF1346C135004A6270 /* PhotoBlogsReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoBlogsReader.xcdatamodel; sourceTree = "<group>"; };
+		08794CB21346C448004A6270 /* PBUserCredentialsController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PBUserCredentialsController_iPad.xib; path = Shared/PBUserCredentialsController_iPad.xib; sourceTree = "<group>"; };
+		08794CB41346C460004A6270 /* PBUserCredentialsController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PBUserCredentialsController_iPhone.xib; path = Shared/PBUserCredentialsController_iPhone.xib; sourceTree = "<group>"; };
+		08794CB61346C4BD004A6270 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		08794CBD1346D185004A6270 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFMDB.a; sourceTree = SOURCE_ROOT; };
+		08794CBE1346D185004A6270 /* libGDataTouchStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGDataTouchStaticLib.a; sourceTree = SOURCE_ROOT; };
+		08794CBF1346D185004A6270 /* libGoogleReaderLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGoogleReaderLib.a; sourceTree = SOURCE_ROOT; };
+		08794CC51346D190004A6270 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		08794CC71346D1AA004A6270 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		08794CC91346D1BD004A6270 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		08794CCB1346D1FE004A6270 /* libBeaufieldUtilitiesLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libBeaufieldUtilitiesLib.a; sourceTree = SOURCE_ROOT; };
+		08794CCD1346D20A004A6270 /* libGDataTouchStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGDataTouchStaticLib.a; sourceTree = SOURCE_ROOT; };
+		087DB5331355F9F500F2C63C /* Thumb-More.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Thumb-More.png"; path = "Images/Thumb-More.png"; sourceTree = "<group>"; };
+		087DB5351355FA1000F2C63C /* Thumb-More.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Thumb-More.png"; path = "Images/Thumb-More.png"; sourceTree = "<group>"; };
+		087DB5471355FCDC00F2C63C /* PBSubscriptionPortfolioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBSubscriptionPortfolioController.h; path = Controllers/PBSubscriptionPortfolioController.h; sourceTree = "<group>"; };
+		087DB5481355FCDE00F2C63C /* PBSubscriptionPortfolioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBSubscriptionPortfolioController.m; path = Controllers/PBSubscriptionPortfolioController.m; sourceTree = "<group>"; };
+		087DB5491355FCDF00F2C63C /* PBSubscriptionPortfolioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBSubscriptionPortfolioView.h; path = Controllers/PBSubscriptionPortfolioView.h; sourceTree = "<group>"; };
+		087DB54A1355FCE000F2C63C /* PBSubscriptionPortfolioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBSubscriptionPortfolioView.m; path = Controllers/PBSubscriptionPortfolioView.m; sourceTree = "<group>"; };
+		087DB55713560BDC00F2C63C /* PBEntryPhotosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBEntryPhotosController.h; path = Controllers/PBEntryPhotosController.h; sourceTree = "<group>"; };
+		087DB55813560BDC00F2C63C /* PBEntryPhotosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBEntryPhotosController.m; path = Controllers/PBEntryPhotosController.m; sourceTree = "<group>"; };
+		087DB55913560BDD00F2C63C /* PBEntryPhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBEntryPhotosView.h; path = Controllers/PBEntryPhotosView.h; sourceTree = "<group>"; };
+		087DB55A13560BDE00F2C63C /* PBEntryPhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBEntryPhotosView.m; path = Controllers/PBEntryPhotosView.m; sourceTree = "<group>"; };
+		087DB55F1356181E00F2C63C /* PBPhotoFrameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBPhotoFrameController.h; path = Controllers/PBPhotoFrameController.h; sourceTree = "<group>"; };
+		087DB5601356181E00F2C63C /* PBPhotoFrameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBPhotoFrameController.m; path = Controllers/PBPhotoFrameController.m; sourceTree = "<group>"; };
+		087DB5611356182000F2C63C /* PBPhotoFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBPhotoFrameView.h; path = Controllers/PBPhotoFrameView.h; sourceTree = "<group>"; };
+		087DB5621356182100F2C63C /* PBPhotoFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBPhotoFrameView.m; path = Controllers/PBPhotoFrameView.m; sourceTree = "<group>"; };
+		08813789134AB62400FE944A /* PBSubscriptionPhotosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBSubscriptionPhotosController.h; path = Controllers/PBSubscriptionPhotosController.h; sourceTree = "<group>"; };
+		0881378A134AB62500FE944A /* PBSubscriptionPhotosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBSubscriptionPhotosController.m; path = Controllers/PBSubscriptionPhotosController.m; sourceTree = "<group>"; };
+		0881378D134AC3A200FE944A /* PBPhotoGridViewThumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBPhotoGridViewThumb.h; path = Controllers/PBPhotoGridViewThumb.h; sourceTree = "<group>"; };
+		0881378E134AC3A200FE944A /* PBPhotoGridViewThumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBPhotoGridViewThumb.m; path = Controllers/PBPhotoGridViewThumb.m; sourceTree = "<group>"; };
+		08A3E8B0141932080065F0F7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		08A5646F13475FC9006D1336 /* PBPasscodeScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBPasscodeScreenController.h; path = Shared/PBPasscodeScreenController.h; sourceTree = "<group>"; };
+		08A5647013475FCA006D1336 /* PBPasscodeScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBPasscodeScreenController.m; path = Shared/PBPasscodeScreenController.m; sourceTree = "<group>"; };
+		08A56474134766D7006D1336 /* PBPasscodeScreenController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PBPasscodeScreenController_iPad.xib; path = Shared/PBPasscodeScreenController_iPad.xib; sourceTree = "<group>"; };
+		08A5647613483C07006D1336 /* PBPasscodeScreenController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PBPasscodeScreenController_iPhone.xib; path = Shared/PBPasscodeScreenController_iPhone.xib; sourceTree = "<group>"; };
+		08A5649A13484174006D1336 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		08A5649C13484180006D1336 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		08B6F4F9135FD47900F73AB0 /* PBFetchPageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFetchPageOperation.h; path = Shared/PBFetchPageOperation.h; sourceTree = "<group>"; };
+		08B6F4FA135FD47900F73AB0 /* PBFetchPageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFetchPageOperation.m; path = Shared/PBFetchPageOperation.m; sourceTree = "<group>"; };
+		08B6F4FE135FD68100F73AB0 /* PBPageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBPageManager.h; path = Shared/PBPageManager.h; sourceTree = "<group>"; };
+		08B6F4FF135FD68100F73AB0 /* PBPageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBPageManager.m; path = Shared/PBPageManager.m; sourceTree = "<group>"; };
+		08BC2669135B301B00B3EE6C /* PBSubscriptionsEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBSubscriptionsEditorController.h; path = Controllers/PBSubscriptionsEditorController.h; sourceTree = "<group>"; };
+		08BC266A135B301B00B3EE6C /* PBSubscriptionsEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBSubscriptionsEditorController.m; path = Controllers/PBSubscriptionsEditorController.m; sourceTree = "<group>"; };
+		08CAD8D9134CF646009E3D59 /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		08D546D4136281920049F12A /* Cover-Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cover-Default@2x.png"; path = "Images/Cover-Default@2x.png"; sourceTree = "<group>"; };
+		08D546D5136281920049F12A /* Cover-New Photos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cover-New Photos@2x.png"; path = "Images/Cover-New Photos@2x.png"; sourceTree = "<group>"; };
+		08D546D6136281930049F12A /* Cover-Starred Photos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cover-Starred Photos@2x.png"; path = "Images/Cover-Starred Photos@2x.png"; sourceTree = "<group>"; };
+		08D546D7136281940049F12A /* Cover-Subscriptions@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cover-Subscriptions@2x.png"; path = "Images/Cover-Subscriptions@2x.png"; sourceTree = "<group>"; };
+		08D546D8136281940049F12A /* Thumb-More@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Thumb-More@2x.png"; path = "Images/Thumb-More@2x.png"; sourceTree = "<group>"; };
+		08E6DED71346490E00DD728A /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Images/iTunesArtwork; sourceTree = "<group>"; };
+		08E6DEDE1346493F00DD728A /* Cover-Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cover-Default.png"; path = "Images/Cover-Default.png"; sourceTree = "<group>"; };
+		08E6DEDF1346493F00DD728A /* Cover-Starred Photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cover-Starred Photos.png"; path = "Images/Cover-Starred Photos.png"; sourceTree = "<group>"; };
+		08E6DEE01346493F00DD728A /* Cover-Subscriptions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cover-Subscriptions.png"; path = "Images/Cover-Subscriptions.png"; sourceTree = "<group>"; };
+		08E6DEE11346493F00DD728A /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "Images/Default-Landscape.png"; sourceTree = "<group>"; };
+		08E6DEE21346493F00DD728A /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "Images/Default-Portrait.png"; sourceTree = "<group>"; };
+		08E6DEE31346493F00DD728A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
+		08E6DEE41346493F00DD728A /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Images/Icon-72.png"; sourceTree = "<group>"; };
+		08E6DEE51346493F00DD728A /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Images/Icon-Small-50.png"; sourceTree = "<group>"; };
+		08E6DEF413464B6D00DD728A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08112D851346418D005190B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A3E8B1141932080065F0F7 /* SystemConfiguration.framework in Frameworks */,
+				08794CA91346BED2004A6270 /* CoreData.framework in Frameworks */,
+				08794CA71346BE8B004A6270 /* Security.framework in Frameworks */,
+				08794C6A1346B0B0004A6270 /* libBeaufieldUtilitiesLib.a in Frameworks */,
+				08794C6B1346B0B0004A6270 /* libFMDB.a in Frameworks */,
+				08794C6C1346B0B0004A6270 /* libGDataTouchStaticLib.a in Frameworks */,
+				08794C6D1346B0B0004A6270 /* libGoogleReaderLib.a in Frameworks */,
+				08112D8D1346418D005190B8 /* UIKit.framework in Frameworks */,
+				08112D8F1346418D005190B8 /* Foundation.framework in Frameworks */,
+				08112D911346418D005190B8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08112DA5134641E5005190B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A3E8B2141932280065F0F7 /* SystemConfiguration.framework in Frameworks */,
+				08794CCE1346D20C004A6270 /* libGDataTouchStaticLib.a in Frameworks */,
+				08794CCC1346D200004A6270 /* libBeaufieldUtilitiesLib.a in Frameworks */,
+				08794CCA1346D1BE004A6270 /* CoreData.framework in Frameworks */,
+				08794CC81346D1AC004A6270 /* UIKit.framework in Frameworks */,
+				08794CC61346D191004A6270 /* Security.framework in Frameworks */,
+				08794CC21346D187004A6270 /* libFMDB.a in Frameworks */,
+				08794CC41346D187004A6270 /* libGoogleReaderLib.a in Frameworks */,
+				08112DAA134641E5005190B8 /* UIKit.framework in Frameworks */,
+				08112DAB134641E5005190B8 /* Foundation.framework in Frameworks */,
+				08112DAC134641E5005190B8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08112D7B13464124005190B8 = {
+			isa = PBXGroup;
+			children = (
+				08CAD8D9134CF646009E3D59 /* TODO */,
+				08E6DEF313464A8000DD728A /* Supporting Files */,
+				08E6DEF2134649D300DD728A /* Model */,
+				08E6DEF11346498C00DD728A /* Shared */,
+				08647BF4134965FB00796419 /* Controllers */,
+				08E6DED5134648EB00DD728A /* Images */,
+				08112D921346418D005190B8 /* PhotoBlogsReader */,
+				08112DAD134641E5005190B8 /* PhotoBlogsReaderMobile */,
+				08E6DEF713464C2C00DD728A /* Libraries */,
+				08112D8B1346418D005190B8 /* Frameworks */,
+				08112D891346418D005190B8 /* Products */,
+				082D5EC41369DBE10063A42A /* Release Notes */,
+			);
+			sourceTree = "<group>";
+		};
+		08112D891346418D005190B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08112D881346418D005190B8 /* PhotoBlogsReader.app */,
+				08112DA8134641E5005190B8 /* PhotoBlogsReaderMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08112D8B1346418D005190B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08794CC91346D1BD004A6270 /* CoreData.framework */,
+				08794CC71346D1AA004A6270 /* UIKit.framework */,
+				08794CC51346D190004A6270 /* Security.framework */,
+				08794CA81346BED2004A6270 /* CoreData.framework */,
+				08794CA61346BE8B004A6270 /* Security.framework */,
+				08112D8C1346418D005190B8 /* UIKit.framework */,
+				08A3E8B0141932080065F0F7 /* SystemConfiguration.framework */,
+				08112D8E1346418D005190B8 /* Foundation.framework */,
+				08112D901346418D005190B8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08112D921346418D005190B8 /* PhotoBlogsReader */ = {
+			isa = PBXGroup;
+			children = (
+				08112D9E1346418D005190B8 /* MainWindow.xib */,
+				08E6DEDD1346492400DD728A /* Images */,
+				08112D931346418D005190B8 /* Supporting Files */,
+			);
+			path = PhotoBlogsReader;
+			sourceTree = "<group>";
+		};
+		08112D931346418D005190B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A5649C13484180006D1336 /* Settings.bundle */,
+				08112D941346418D005190B8 /* PhotoBlogsReader-Info.plist */,
+				08112D951346418D005190B8 /* InfoPlist.strings */,
+				08112D981346418D005190B8 /* PhotoBlogsReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08112DAD134641E5005190B8 /* PhotoBlogsReaderMobile */ = {
+			isa = PBXGroup;
+			children = (
+				08112DB9134641E5005190B8 /* MainWindow.xib */,
+				08E6DEF01346496400DD728A /* Images */,
+				08112DAE134641E5005190B8 /* Supporting Files */,
+			);
+			path = PhotoBlogsReaderMobile;
+			sourceTree = "<group>";
+		};
+		08112DAE134641E5005190B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A5649A13484174006D1336 /* Settings.bundle */,
+				08112DAF134641E5005190B8 /* PhotoBlogsReaderMobile-Info.plist */,
+				08112DB0134641E5005190B8 /* InfoPlist.strings */,
+				08112DB3134641E5005190B8 /* PhotoBlogsReaderMobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		082D5EC41369DBE10063A42A /* Release Notes */ = {
+			isa = PBXGroup;
+			children = (
+				082EF95D136EF02400CC5DCD /* Release Notes.txt */,
+			);
+			name = "Release Notes";
+			sourceTree = "<group>";
+		};
+		08647BF4134965FB00796419 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				087DB55F1356181E00F2C63C /* PBPhotoFrameController.h */,
+				087DB5601356181E00F2C63C /* PBPhotoFrameController.m */,
+				087DB5611356182000F2C63C /* PBPhotoFrameView.h */,
+				087DB5621356182100F2C63C /* PBPhotoFrameView.m */,
+				087DB55713560BDC00F2C63C /* PBEntryPhotosController.h */,
+				087DB55813560BDC00F2C63C /* PBEntryPhotosController.m */,
+				087DB55913560BDD00F2C63C /* PBEntryPhotosView.h */,
+				087DB55A13560BDE00F2C63C /* PBEntryPhotosView.m */,
+				087DB5471355FCDC00F2C63C /* PBSubscriptionPortfolioController.h */,
+				087DB5481355FCDE00F2C63C /* PBSubscriptionPortfolioController.m */,
+				087DB5491355FCDF00F2C63C /* PBSubscriptionPortfolioView.h */,
+				087DB54A1355FCE000F2C63C /* PBSubscriptionPortfolioView.m */,
+				08813789134AB62400FE944A /* PBSubscriptionPhotosController.h */,
+				0881378A134AB62500FE944A /* PBSubscriptionPhotosController.m */,
+				08647C06134969C400796419 /* PBSubscriptionsViewerController.h */,
+				08647C07134969C400796419 /* PBSubscriptionsViewerController.m */,
+				08BC2669135B301B00B3EE6C /* PBSubscriptionsEditorController.h */,
+				08BC266A135B301B00B3EE6C /* PBSubscriptionsEditorController.m */,
+				08647C0A13496BC700796419 /* PBGridView.h */,
+				08647C0B13496BC700796419 /* PBGridView.m */,
+				08647C441349780600796419 /* PBGridViewThumb.h */,
+				08647C451349780700796419 /* PBGridViewThumb.m */,
+				0881378D134AC3A200FE944A /* PBPhotoGridViewThumb.h */,
+				0881378E134AC3A200FE944A /* PBPhotoGridViewThumb.m */,
+				08647C49134987DC00796419 /* PBSubscriptionGridViewThumb.h */,
+				08647C4A134987DE00796419 /* PBSubscriptionGridViewThumb.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		08E6DED5134648EB00DD728A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				086D0D9B135E1444003593DA /* iTunesArtwork.png */,
+				08794C19134653C7004A6270 /* Icon-Small.png */,
+				08E6DED71346490E00DD728A /* iTunesArtwork */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		08E6DEDD1346492400DD728A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				087DB5331355F9F500F2C63C /* Thumb-More.png */,
+				08E6DEDE1346493F00DD728A /* Cover-Default.png */,
+				08647C68134A02DB00796419 /* Cover-New Photos.png */,
+				08E6DEDF1346493F00DD728A /* Cover-Starred Photos.png */,
+				08E6DEE11346493F00DD728A /* Default-Landscape.png */,
+				08E6DEE01346493F00DD728A /* Cover-Subscriptions.png */,
+				08E6DEE21346493F00DD728A /* Default-Portrait.png */,
+				08E6DEE31346493F00DD728A /* Default.png */,
+				08E6DEE41346493F00DD728A /* Icon-72.png */,
+				08E6DEE51346493F00DD728A /* Icon-Small-50.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		08E6DEF01346496400DD728A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				087DB5351355FA1000F2C63C /* Thumb-More.png */,
+				08D546D8136281940049F12A /* Thumb-More@2x.png */,
+				0817F8A01354CAD200C5713B /* Cover-Default.png */,
+				08D546D4136281920049F12A /* Cover-Default@2x.png */,
+				0817F8A11354CAD200C5713B /* Cover-New Photos.png */,
+				08D546D5136281920049F12A /* Cover-New Photos@2x.png */,
+				0817F8A21354CAD200C5713B /* Cover-Starred Photos.png */,
+				08D546D6136281930049F12A /* Cover-Starred Photos@2x.png */,
+				0817F8A31354CAD200C5713B /* Cover-Subscriptions.png */,
+				08D546D7136281940049F12A /* Cover-Subscriptions@2x.png */,
+				08794C1D1346544E004A6270 /* Default.png */,
+				08794C1E1346544E004A6270 /* Default@2x.png */,
+				08794C1F1346544E004A6270 /* Icon-Small@2x.png */,
+				08794C201346544E004A6270 /* Icon.png */,
+				08794C211346544E004A6270 /* Icon@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		08E6DEF11346498C00DD728A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				08794C761346BAE0004A6270 /* PBGoogleReaderAccount.h */,
+				08794C771346BAE0004A6270 /* PBGoogleReaderAccount.m */,
+				08794C6E1346BAE0004A6270 /* PBAppDelegate.h */,
+				08794C6F1346BAE0004A6270 /* PBAppDelegate.m */,
+				08A5646F13475FC9006D1336 /* PBPasscodeScreenController.h */,
+				08A5647013475FCA006D1336 /* PBPasscodeScreenController.m */,
+				08A56474134766D7006D1336 /* PBPasscodeScreenController_iPad.xib */,
+				08A5647613483C07006D1336 /* PBPasscodeScreenController_iPhone.xib */,
+				08794C7A1346BAE0004A6270 /* PBUserCredentialsController.h */,
+				08794C7B1346BAE0004A6270 /* PBUserCredentialsController.m */,
+				08794CB21346C448004A6270 /* PBUserCredentialsController_iPad.xib */,
+				08794CB41346C460004A6270 /* PBUserCredentialsController_iPhone.xib */,
+				08B6F4F9135FD47900F73AB0 /* PBFetchPageOperation.h */,
+				08B6F4FA135FD47900F73AB0 /* PBFetchPageOperation.m */,
+				08B6F4FE135FD68100F73AB0 /* PBPageManager.h */,
+				08B6F4FF135FD68100F73AB0 /* PBPageManager.m */,
+				08794C741346BAE0004A6270 /* PBFetchPhotoOperation.h */,
+				08794C751346BAE0004A6270 /* PBFetchPhotoOperation.m */,
+				08794C781346BAE0004A6270 /* PBPhotoManager.h */,
+				08794C791346BAE0004A6270 /* PBPhotoManager.m */,
+				08647BF81349667900796419 /* PBLabel.h */,
+				08647BF91349667F00796419 /* PBLabel.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		08E6DEF2134649D300DD728A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08794C8A1346BB58004A6270 /* PBAppSettings.h */,
+				08794C8B1346BB58004A6270 /* PBAppSettings.m */,
+				08794C8C1346BB58004A6270 /* PBEntry.h */,
+				08794C8D1346BB58004A6270 /* PBEntry.m */,
+				08794C901346BB58004A6270 /* PBModel.h */,
+				08794C911346BB58004A6270 /* PBModel.m */,
+				08794C921346BB58004A6270 /* PBPhoto.h */,
+				08794C931346BB58004A6270 /* PBPhoto.m */,
+				08794C941346BB58004A6270 /* PBSubscription.h */,
+				08794C951346BB58004A6270 /* PBSubscription.m */,
+				08794C961346BB58004A6270 /* PBSubscriptionHeuristics.h */,
+				08794C971346BB58004A6270 /* PBSubscriptionHeuristics.m */,
+				08794CAE1346C133004A6270 /* PhotoBlogs.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		08E6DEF313464A8000DD728A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08E6DEF413464B6D00DD728A /* main.m */,
+				08794CB61346C4BD004A6270 /* Entitlements.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08E6DEF713464C2C00DD728A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				08794CBD1346D185004A6270 /* libFMDB.a */,
+				08794CBE1346D185004A6270 /* libGDataTouchStaticLib.a */,
+				08794CBF1346D185004A6270 /* libGoogleReaderLib.a */,
+				08794CCD1346D20A004A6270 /* libGDataTouchStaticLib.a */,
+				08794CCB1346D1FE004A6270 /* libBeaufieldUtilitiesLib.a */,
+				08794C661346B0B0004A6270 /* libBeaufieldUtilitiesLib.a */,
+				08794C671346B0B0004A6270 /* libFMDB.a */,
+				08794C681346B0B0004A6270 /* libGDataTouchStaticLib.a */,
+				08794C691346B0B0004A6270 /* libGoogleReaderLib.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08112D871346418D005190B8 /* PhotoBlogsReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08112DA11346418D005190B8 /* Build configuration list for PBXNativeTarget "PhotoBlogsReader" */;
+			buildPhases = (
+				08112D841346418D005190B8 /* Sources */,
+				08112D851346418D005190B8 /* Frameworks */,
+				08112D861346418D005190B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBlogsReader;
+			productName = PhotoBlogsReader;
+			productReference = 08112D881346418D005190B8 /* PhotoBlogsReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08112DA7134641E5005190B8 /* PhotoBlogsReaderMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08112DBC134641E5005190B8 /* Build configuration list for PBXNativeTarget "PhotoBlogsReaderMobile" */;
+			buildPhases = (
+				08112DA4134641E5005190B8 /* Sources */,
+				08112DA5134641E5005190B8 /* Frameworks */,
+				08112DA6134641E5005190B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBlogsReaderMobile;
+			productName = PhotoBlogsReaderMobile;
+			productReference = 08112DA8134641E5005190B8 /* PhotoBlogsReaderMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08112D7D13464124005190B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = N/A;
+			};
+			buildConfigurationList = 08112D8013464124005190B8 /* Build configuration list for PBXProject "Photoblogs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08112D7B13464124005190B8;
+			productRefGroup = 08112D891346418D005190B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08112D871346418D005190B8 /* PhotoBlogsReader */,
+				08112DA7134641E5005190B8 /* PhotoBlogsReaderMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08112D861346418D005190B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08112D971346418D005190B8 /* InfoPlist.strings in Resources */,
+				08112DA01346418D005190B8 /* MainWindow.xib in Resources */,
+				08E6DED91346490E00DD728A /* iTunesArtwork in Resources */,
+				08E6DEE71346493F00DD728A /* Cover-Default.png in Resources */,
+				08E6DEE81346493F00DD728A /* Cover-Starred Photos.png in Resources */,
+				08E6DEE91346493F00DD728A /* Cover-Subscriptions.png in Resources */,
+				08E6DEEA1346493F00DD728A /* Default-Landscape.png in Resources */,
+				08E6DEEB1346493F00DD728A /* Default-Portrait.png in Resources */,
+				08E6DEEC1346493F00DD728A /* Default.png in Resources */,
+				08E6DEED1346493F00DD728A /* Icon-72.png in Resources */,
+				08E6DEEE1346493F00DD728A /* Icon-Small-50.png in Resources */,
+				08794C1A134653C7004A6270 /* Icon-Small.png in Resources */,
+				08794CB31346C449004A6270 /* PBUserCredentialsController_iPad.xib in Resources */,
+				08794CB71346C4BD004A6270 /* Entitlements.plist in Resources */,
+				08A56475134766D8006D1336 /* PBPasscodeScreenController_iPad.xib in Resources */,
+				08A5649D13484180006D1336 /* Settings.bundle in Resources */,
+				08647C69134A02DC00796419 /* Cover-New Photos.png in Resources */,
+				087DB5341355F9F500F2C63C /* Thumb-More.png in Resources */,
+				086D0D9C135E1444003593DA /* iTunesArtwork.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08112DA6134641E5005190B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08112DB2134641E5005190B8 /* InfoPlist.strings in Resources */,
+				08112DBB134641E5005190B8 /* MainWindow.xib in Resources */,
+				08E6DEDA1346490E00DD728A /* iTunesArtwork in Resources */,
+				08794C1B134653C7004A6270 /* Icon-Small.png in Resources */,
+				08794C221346544E004A6270 /* Default.png in Resources */,
+				08794C231346544E004A6270 /* Default@2x.png in Resources */,
+				08794C241346544E004A6270 /* Icon-Small@2x.png in Resources */,
+				08794C251346544E004A6270 /* Icon.png in Resources */,
+				08794C261346544E004A6270 /* Icon@2x.png in Resources */,
+				08794CB51346C461004A6270 /* PBUserCredentialsController_iPhone.xib in Resources */,
+				08794CB81346C4BD004A6270 /* Entitlements.plist in Resources */,
+				08A5647713483C0E006D1336 /* PBPasscodeScreenController_iPhone.xib in Resources */,
+				08A5649B13484174006D1336 /* Settings.bundle in Resources */,
+				0817F8A41354CAD200C5713B /* Cover-Default.png in Resources */,
+				0817F8A51354CAD200C5713B /* Cover-New Photos.png in Resources */,
+				0817F8A61354CAD200C5713B /* Cover-Starred Photos.png in Resources */,
+				0817F8A71354CAD200C5713B /* Cover-Subscriptions.png in Resources */,
+				087DB5361355FA1000F2C63C /* Thumb-More.png in Resources */,
+				086D0D9D135E1444003593DA /* iTunesArtwork.png in Resources */,
+				08D546D9136281950049F12A /* Cover-Default@2x.png in Resources */,
+				08D546DA136281950049F12A /* Cover-New Photos@2x.png in Resources */,
+				08D546DB136281950049F12A /* Cover-Starred Photos@2x.png in Resources */,
+				08D546DC136281950049F12A /* Cover-Subscriptions@2x.png in Resources */,
+				08D546DD136281950049F12A /* Thumb-More@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08112D841346418D005190B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E6DEF513464B6D00DD728A /* main.m in Sources */,
+				08794C7C1346BAE0004A6270 /* PBAppDelegate.m in Sources */,
+				08794C821346BAE0004A6270 /* PBFetchPhotoOperation.m in Sources */,
+				08794C841346BAE0004A6270 /* PBGoogleReaderAccount.m in Sources */,
+				08794C861346BAE0004A6270 /* PBPhotoManager.m in Sources */,
+				08794C881346BAE0004A6270 /* PBUserCredentialsController.m in Sources */,
+				08794C981346BB59004A6270 /* PBAppSettings.m in Sources */,
+				08794C9A1346BB59004A6270 /* PBEntry.m in Sources */,
+				08794C9E1346BB59004A6270 /* PBModel.m in Sources */,
+				08794CA01346BB59004A6270 /* PBPhoto.m in Sources */,
+				08794CA21346BB59004A6270 /* PBSubscription.m in Sources */,
+				08794CA41346BB59004A6270 /* PBSubscriptionHeuristics.m in Sources */,
+				08794CB01346C135004A6270 /* PhotoBlogs.xcdatamodeld in Sources */,
+				08A5647113475FD1006D1336 /* PBPasscodeScreenController.m in Sources */,
+				08647BFC1349668600796419 /* PBLabel.m in Sources */,
+				08647C08134969C400796419 /* PBSubscriptionsViewerController.m in Sources */,
+				08647C0C13496BC800796419 /* PBGridView.m in Sources */,
+				08647C461349780A00796419 /* PBGridViewThumb.m in Sources */,
+				08647C4B134987E300796419 /* PBSubscriptionGridViewThumb.m in Sources */,
+				0881378B134AB62500FE944A /* PBSubscriptionPhotosController.m in Sources */,
+				0881378F134AC3A300FE944A /* PBPhotoGridViewThumb.m in Sources */,
+				087DB5531355FCE200F2C63C /* PBSubscriptionPortfolioController.m in Sources */,
+				087DB5551355FCE200F2C63C /* PBSubscriptionPortfolioView.m in Sources */,
+				087DB55B13560BDE00F2C63C /* PBEntryPhotosController.m in Sources */,
+				087DB55D13560BDE00F2C63C /* PBEntryPhotosView.m in Sources */,
+				087DB5631356182400F2C63C /* PBPhotoFrameController.m in Sources */,
+				087DB5651356182400F2C63C /* PBPhotoFrameView.m in Sources */,
+				08BC266B135B301B00B3EE6C /* PBSubscriptionsEditorController.m in Sources */,
+				08B6F4FB135FD47900F73AB0 /* PBFetchPageOperation.m in Sources */,
+				08B6F500135FD68200F73AB0 /* PBPageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08112DA4134641E5005190B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E6DEF613464B6D00DD728A /* main.m in Sources */,
+				08794C7D1346BAE0004A6270 /* PBAppDelegate.m in Sources */,
+				08794C831346BAE0004A6270 /* PBFetchPhotoOperation.m in Sources */,
+				08794C851346BAE0004A6270 /* PBGoogleReaderAccount.m in Sources */,
+				08794C871346BAE0004A6270 /* PBPhotoManager.m in Sources */,
+				08794C891346BAE0004A6270 /* PBUserCredentialsController.m in Sources */,
+				08794C991346BB59004A6270 /* PBAppSettings.m in Sources */,
+				08794C9B1346BB59004A6270 /* PBEntry.m in Sources */,
+				08794C9F1346BB59004A6270 /* PBModel.m in Sources */,
+				08794CA11346BB59004A6270 /* PBPhoto.m in Sources */,
+				08794CA31346BB59004A6270 /* PBSubscription.m in Sources */,
+				08794CA51346BB59004A6270 /* PBSubscriptionHeuristics.m in Sources */,
+				08794CB11346C135004A6270 /* PhotoBlogs.xcdatamodeld in Sources */,
+				08A5647213475FD1006D1336 /* PBPasscodeScreenController.m in Sources */,
+				08647BFD1349668600796419 /* PBLabel.m in Sources */,
+				08647C09134969C500796419 /* PBSubscriptionsViewerController.m in Sources */,
+				08647C0D13496BC800796419 /* PBGridView.m in Sources */,
+				08647C471349780A00796419 /* PBGridViewThumb.m in Sources */,
+				08647C4C134987E300796419 /* PBSubscriptionGridViewThumb.m in Sources */,
+				0881378C134AB62500FE944A /* PBSubscriptionPhotosController.m in Sources */,
+				08813790134AC3A300FE944A /* PBPhotoGridViewThumb.m in Sources */,
+				087DB5541355FCE200F2C63C /* PBSubscriptionPortfolioController.m in Sources */,
+				087DB5561355FCE200F2C63C /* PBSubscriptionPortfolioView.m in Sources */,
+				087DB55C13560BDE00F2C63C /* PBEntryPhotosController.m in Sources */,
+				087DB55E13560BDE00F2C63C /* PBEntryPhotosView.m in Sources */,
+				087DB5641356182400F2C63C /* PBPhotoFrameController.m in Sources */,
+				087DB5661356182400F2C63C /* PBPhotoFrameView.m in Sources */,
+				08BC266C135B301B00B3EE6C /* PBSubscriptionsEditorController.m in Sources */,
+				08B6F4FC135FD47900F73AB0 /* PBFetchPageOperation.m in Sources */,
+				08B6F501135FD68200F73AB0 /* PBPageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08112D951346418D005190B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08112D961346418D005190B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08112D9E1346418D005190B8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08112D9F1346418D005190B8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		08112DB0134641E5005190B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08112DB1134641E5005190B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08112DB9134641E5005190B8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08112DBA134641E5005190B8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08112D8213464124005190B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		08112D8313464124005190B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		08112DA21346418D005190B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoBlogsReader/PhotoBlogsReader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Headers",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "PhotoBlogsReader/PhotoBlogsReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_CFLAGS = (
+					"-D__DEBUG_EXECUTION_TIME__",
+					"-D__DEBUG_APP_LIFECYCLE__",
+					"-D__DEBUG__",
+					"-D__NO_DEBUG_LAYOUT_SUBVIEWS__",
+				);
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-lsqlite3",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08112DA31346418D005190B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoBlogsReader/PhotoBlogsReader-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Headers",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "PhotoBlogsReader/PhotoBlogsReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-lsqlite3",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		08112DBD134641E5005190B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoBlogsReaderMobile/PhotoBlogsReaderMobile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Headers",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "PhotoBlogsReaderMobile/PhotoBlogsReaderMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_CFLAGS = (
+					"-D__DEBUG_EXECUTION_TIME__",
+					"-D__DEBUG_APP_LIFECYCLE__",
+					"-D__DEBUG__",
+					"-D__NO_DEBUG_LAYOUT_SUBVIEWS__",
+				);
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-lsqlite3",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08112DBE134641E5005190B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoBlogsReaderMobile/PhotoBlogsReaderMobile-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Headers",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "PhotoBlogsReaderMobile/PhotoBlogsReaderMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-lsqlite3",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		08994AA81365E48200E54D21 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Distribution;
+		};
+		08994AA91365E48200E54D21 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoBlogsReader/PhotoBlogsReader-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Headers",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "PhotoBlogsReader/PhotoBlogsReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-lsqlite3",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		08994AAA1365E48200E54D21 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoBlogsReaderMobile/PhotoBlogsReaderMobile-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Headers",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "PhotoBlogsReaderMobile/PhotoBlogsReaderMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-lsqlite3",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08112D8013464124005190B8 /* Build configuration list for PBXProject "Photoblogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08112D8213464124005190B8 /* Debug */,
+				08112D8313464124005190B8 /* Release */,
+				08994AA81365E48200E54D21 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08112DA11346418D005190B8 /* Build configuration list for PBXNativeTarget "PhotoBlogsReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08112DA21346418D005190B8 /* Debug */,
+				08112DA31346418D005190B8 /* Release */,
+				08994AA91365E48200E54D21 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08112DBC134641E5005190B8 /* Build configuration list for PBXNativeTarget "PhotoBlogsReaderMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08112DBD134641E5005190B8 /* Debug */,
+				08112DBE134641E5005190B8 /* Release */,
+				08994AAA1365E48200E54D21 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		08794CAE1346C133004A6270 /* PhotoBlogs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				08794CAF1346C135004A6270 /* PhotoBlogsReader.xcdatamodel */,
+			);
+			currentVersion = 08794CAF1346C135004A6270 /* PhotoBlogsReader.xcdatamodel */;
+			name = PhotoBlogs.xcdatamodeld;
+			path = PhotoBlogsReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 08112D7D13464124005190B8 /* Project object */;
+}

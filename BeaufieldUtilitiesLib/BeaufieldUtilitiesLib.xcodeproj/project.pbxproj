@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0829ED6E131EAC460026B3B4 /* UIWebViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0829ED6D131EAC460026B3B4 /* UIWebViewExtensions.m */; };
+		0829ED70131EACC20026B3B4 /* UIWebViewExtensions.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 0829ED6C131EAC460026B3B4 /* UIWebViewExtensions.h */; };
+		083B608112FC92400073633B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083B608012FC92400073633B /* Foundation.framework */; };
+		083B609012FC92A50073633B /* NSErrorExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B608E12FC92A50073633B /* NSErrorExtensions.m */; };
+		083B609312FC94990073633B /* NSErrorExtensions.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 083B608D12FC92A50073633B /* NSErrorExtensions.h */; };
+		08406CC11316E9F600A115AC /* NSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 08406CC01316E9F600A115AC /* NSDataExtensions.m */; };
+		08406CC31316EA3C00A115AC /* NSDataExtensions.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 08406CBF1316E9F600A115AC /* NSDataExtensions.h */; };
+		08AC627613062D9E001B54D6 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AC627513062D9E001B54D6 /* KeychainItemWrapper.m */; };
+		08B7B5AC1306322A00CF0B1C /* KeychainItemWrapper.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 08AC627413062D9E001B54D6 /* KeychainItemWrapper.h */; };
+		08BC26331359FE1600B3EE6C /* UIImageExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC26321359FE1600B3EE6C /* UIImageExtensions.m */; };
+		08BC26351359FE2B00B3EE6C /* UIImageExtensions.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 08BC26311359FE1600B3EE6C /* UIImageExtensions.h */; };
+		08C05FBE130889D5005B5B7B /* NSStringExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C05FBD130889D5005B5B7B /* NSStringExtensions.m */; };
+		08C05FC013088B51005B5B7B /* NSStringExtensions.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 08C05FBC130889D5005B5B7B /* NSStringExtensions.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		083B609212FC947B0073633B /* Copy Static Header Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Headers;
+			dstSubfolderSpec = 16;
+			files = (
+				08BC26351359FE2B00B3EE6C /* UIImageExtensions.h in Copy Static Header Files */,
+				0829ED70131EACC20026B3B4 /* UIWebViewExtensions.h in Copy Static Header Files */,
+				08406CC31316EA3C00A115AC /* NSDataExtensions.h in Copy Static Header Files */,
+				08C05FC013088B51005B5B7B /* NSStringExtensions.h in Copy Static Header Files */,
+				08B7B5AC1306322A00CF0B1C /* KeychainItemWrapper.h in Copy Static Header Files */,
+				083B609312FC94990073633B /* NSErrorExtensions.h in Copy Static Header Files */,
+			);
+			name = "Copy Static Header Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0829ED6C131EAC460026B3B4 /* UIWebViewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewExtensions.h; sourceTree = "<group>"; };
+		0829ED6D131EAC460026B3B4 /* UIWebViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewExtensions.m; sourceTree = "<group>"; };
+		083B607D12FC92400073633B /* libBeaufieldUtilitiesLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBeaufieldUtilitiesLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		083B608012FC92400073633B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		083B608412FC92400073633B /* BeaufieldUtilitiesLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeaufieldUtilitiesLib-Prefix.pch"; sourceTree = "<group>"; };
+		083B608D12FC92A50073633B /* NSErrorExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSErrorExtensions.h; sourceTree = "<group>"; };
+		083B608E12FC92A50073633B /* NSErrorExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSErrorExtensions.m; sourceTree = "<group>"; };
+		08406CBF1316E9F600A115AC /* NSDataExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataExtensions.h; sourceTree = "<group>"; };
+		08406CC01316E9F600A115AC /* NSDataExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataExtensions.m; sourceTree = "<group>"; };
+		08AC627413062D9E001B54D6 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		08AC627513062D9E001B54D6 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		08BC26311359FE1600B3EE6C /* UIImageExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtensions.h; sourceTree = "<group>"; };
+		08BC26321359FE1600B3EE6C /* UIImageExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtensions.m; sourceTree = "<group>"; };
+		08C05FBC130889D5005B5B7B /* NSStringExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringExtensions.h; sourceTree = "<group>"; };
+		08C05FBD130889D5005B5B7B /* NSStringExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringExtensions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		083B607A12FC92400073633B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083B608112FC92400073633B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083B607212FC92400073633B = {
+			isa = PBXGroup;
+			children = (
+				083B608212FC92400073633B /* BeaufieldUtilitiesLib */,
+				083B607F12FC92400073633B /* Frameworks */,
+				083B607E12FC92400073633B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		083B607E12FC92400073633B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				083B607D12FC92400073633B /* libBeaufieldUtilitiesLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		083B607F12FC92400073633B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				083B608012FC92400073633B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		083B608212FC92400073633B /* BeaufieldUtilitiesLib */ = {
+			isa = PBXGroup;
+			children = (
+				08BC26311359FE1600B3EE6C /* UIImageExtensions.h */,
+				08BC26321359FE1600B3EE6C /* UIImageExtensions.m */,
+				08406CBF1316E9F600A115AC /* NSDataExtensions.h */,
+				08406CC01316E9F600A115AC /* NSDataExtensions.m */,
+				083B608D12FC92A50073633B /* NSErrorExtensions.h */,
+				083B608E12FC92A50073633B /* NSErrorExtensions.m */,
+				08C05FBC130889D5005B5B7B /* NSStringExtensions.h */,
+				08C05FBD130889D5005B5B7B /* NSStringExtensions.m */,
+				08AC627413062D9E001B54D6 /* KeychainItemWrapper.h */,
+				08AC627513062D9E001B54D6 /* KeychainItemWrapper.m */,
+				0829ED6C131EAC460026B3B4 /* UIWebViewExtensions.h */,
+				0829ED6D131EAC460026B3B4 /* UIWebViewExtensions.m */,
+				083B608312FC92400073633B /* Supporting Files */,
+			);
+			path = BeaufieldUtilitiesLib;
+			sourceTree = "<group>";
+		};
+		083B608312FC92400073633B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				083B608412FC92400073633B /* BeaufieldUtilitiesLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		083B607C12FC92400073633B /* BeaufieldUtilitiesLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083B608712FC92400073633B /* Build configuration list for PBXNativeTarget "BeaufieldUtilitiesLib" */;
+			buildPhases = (
+				083B609212FC947B0073633B /* Copy Static Header Files */,
+				083B607912FC92400073633B /* Sources */,
+				083B607A12FC92400073633B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaufieldUtilitiesLib;
+			productName = BeaufieldUtilitiesLib;
+			productReference = 083B607D12FC92400073633B /* libBeaufieldUtilitiesLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		083B607412FC92400073633B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = N/A;
+			};
+			buildConfigurationList = 083B607712FC92400073633B /* Build configuration list for PBXProject "BeaufieldUtilitiesLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 083B607212FC92400073633B;
+			productRefGroup = 083B607E12FC92400073633B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				083B607C12FC92400073633B /* BeaufieldUtilitiesLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		083B607912FC92400073633B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083B609012FC92A50073633B /* NSErrorExtensions.m in Sources */,
+				08AC627613062D9E001B54D6 /* KeychainItemWrapper.m in Sources */,
+				08C05FBE130889D5005B5B7B /* NSStringExtensions.m in Sources */,
+				08406CC11316E9F600A115AC /* NSDataExtensions.m in Sources */,
+				0829ED6E131EAC460026B3B4 /* UIWebViewExtensions.m in Sources */,
+				08BC26331359FE1600B3EE6C /* UIImageExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		083B608512FC92400073633B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		083B608612FC92400073633B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		083B608812FC92400073633B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/BeaufieldUtilitiesLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaufieldUtilitiesLib/BeaufieldUtilitiesLib-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_CFLAGS = (
+					"-D__DEBUG__",
+					"-D__DEBUG_EXECUTION_TIME__",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		083B608912FC92400073633B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/BeaufieldUtilitiesLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaufieldUtilitiesLib/BeaufieldUtilitiesLib-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_CFLAGS = "-D__DEBUG_EXECUTION_TIME__";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08994AB01365E77100E54D21 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		08994AB11365E77100E54D21 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/BeaufieldUtilitiesLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaufieldUtilitiesLib/BeaufieldUtilitiesLib-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		083B607712FC92400073633B /* Build configuration list for PBXProject "BeaufieldUtilitiesLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083B608512FC92400073633B /* Debug */,
+				083B608612FC92400073633B /* Release */,
+				08994AB01365E77100E54D21 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		083B608712FC92400073633B /* Build configuration list for PBXNativeTarget "BeaufieldUtilitiesLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083B608812FC92400073633B /* Debug */,
+				083B608912FC92400073633B /* Release */,
+				08994AB11365E77100E54D21 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 083B607412FC92400073633B /* Project object */;
+}

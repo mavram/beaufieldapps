@@ -1,0 +1,17 @@
+Finest pictures as highlighted by the community.
+
+Featured pictures are images that the community have chosen to be highlighted as some of the finest on Wikimedia Commons. Wikimedia Featured Pictures is presenting monthly collections of these various pictures - photographs, computerized graphics, animated media, etc - on your iPhone, iPod or iPad for a comfortable and elegant viewing experience. There are currently more than 3,500 of such images in the Wikimedia Commons repository.
+
+Wikimedia Featured Pictures Features:
+
+• Collection Auto-update
+Support to fetch most recent featured pictures, at startup, as collection is continuously updated by the community. Auto-fetching of the existing featured pictures on demand when viewed for the first time.
+
+• Starred Pictures Collection
+Support to mark any picture as a personal favourite and automatically arrange them in a separate Starred Pictures collection for fast retrieval.
+
+• Smart Gestures Navigation
+One finger swap on the header bar to navigate to previous/next month. Two fingers swap to navigate to the previous/next year. Tap on month name to toggle between entire collection and Starred Pictures collection.
+
+• Miscellaneous
+Save to Photo Albums. Local Caching. Aspect Ratio Preservation. Offline Mode. Pinch To Zoom. Open Featured Picture in Safari.
