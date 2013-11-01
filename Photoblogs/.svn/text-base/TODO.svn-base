@@ -1,0 +1,11 @@
+-BACKLOG:
++ Tweet/Starred - goes to webservice/website
++ POTD for Wikipedia and Wikicommons
++ Slideshow + AirPlay
++ Get more photos from the original
+
+
+-BUGS:
++ If restored after a backup we gave file URL in the DB but no photos cached
+
+

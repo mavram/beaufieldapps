@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		083B601E12FC886A0073633B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083B601D12FC886A0073633B /* Foundation.framework */; };
+		083B604012FC89390073633B /* GDataEntryReaderEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B602A12FC89390073633B /* GDataEntryReaderEntry.m */; };
+		083B604212FC89390073633B /* GDataFeedReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B602C12FC89390073633B /* GDataFeedReader.m */; };
+		083B604412FC89390073633B /* GDataQueryGoogleReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B602E12FC89390073633B /* GDataQueryGoogleReader.m */; };
+		083B604612FC89390073633B /* GDataReaderEntrySource.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B603012FC89390073633B /* GDataReaderEntrySource.m */; };
+		083B604812FC89390073633B /* GDataReaderObjectBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B603212FC89390073633B /* GDataReaderObjectBase.m */; };
+		083B604A12FC89390073633B /* GDataReaderObjectSubscriptionsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B603412FC89390073633B /* GDataReaderObjectSubscriptionsList.m */; };
+		083B604C12FC89390073633B /* GDataReaderObjectUnreadCountsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B603612FC89390073633B /* GDataReaderObjectUnreadCountsList.m */; };
+		083B604E12FC89390073633B /* GDataReaderSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B603812FC89390073633B /* GDataReaderSubscription.m */; };
+		083B605012FC89390073633B /* GDataReaderUnreadCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B603A12FC89390073633B /* GDataReaderUnreadCount.m */; };
+		083B605212FC89390073633B /* GDataServiceBaseExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B603C12FC89390073633B /* GDataServiceBaseExtensions.m */; };
+		083B605412FC89390073633B /* GDataServiceGoogleReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B603E12FC89390073633B /* GDataServiceGoogleReader.m */; };
+		083B609512FC95240073633B /* GDataEntryReaderEntry.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 083B602912FC89390073633B /* GDataEntryReaderEntry.h */; };
+		083B609612FC95240073633B /* GDataFeedReader.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 083B602B12FC89390073633B /* GDataFeedReader.h */; };
+		083B609712FC95240073633B /* GDataQueryGoogleReader.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 083B602D12FC89390073633B /* GDataQueryGoogleReader.h */; };
+		083B609812FC95240073633B /* GDataReaderEntrySource.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 083B602F12FC89390073633B /* GDataReaderEntrySource.h */; };
+		083B609912FC95240073633B /* GDataReaderObjectBase.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 083B603112FC89390073633B /* GDataReaderObjectBase.h */; };
+		083B609A12FC95240073633B /* GDataReaderObjectSubscriptionsList.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 083B603312FC89390073633B /* GDataReaderObjectSubscriptionsList.h */; };
+		083B609B12FC95240073633B /* GDataReaderObjectUnreadCountsList.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 083B603512FC89390073633B /* GDataReaderObjectUnreadCountsList.h */; };
+		083B609C12FC95240073633B /* GDataReaderSubscription.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 083B603712FC89390073633B /* GDataReaderSubscription.h */; };
+		083B609D12FC95240073633B /* GDataReaderUnreadCount.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 083B603912FC89390073633B /* GDataReaderUnreadCount.h */; };
+		083B609E12FC95240073633B /* GDataServiceBaseExtensions.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 083B603B12FC89390073633B /* GDataServiceBaseExtensions.h */; };
+		083B609F12FC95240073633B /* GDataServiceGoogleReader.h in Copy Static Header Files */ = {isa = PBXBuildFile; fileRef = 083B603D12FC89390073633B /* GDataServiceGoogleReader.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		083B609412FC94FA0073633B /* Copy Static Header Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Headers;
+			dstSubfolderSpec = 16;
+			files = (
+				083B609512FC95240073633B /* GDataEntryReaderEntry.h in Copy Static Header Files */,
+				083B609612FC95240073633B /* GDataFeedReader.h in Copy Static Header Files */,
+				083B609712FC95240073633B /* GDataQueryGoogleReader.h in Copy Static Header Files */,
+				083B609812FC95240073633B /* GDataReaderEntrySource.h in Copy Static Header Files */,
+				083B609912FC95240073633B /* GDataReaderObjectBase.h in Copy Static Header Files */,
+				083B609A12FC95240073633B /* GDataReaderObjectSubscriptionsList.h in Copy Static Header Files */,
+				083B609B12FC95240073633B /* GDataReaderObjectUnreadCountsList.h in Copy Static Header Files */,
+				083B609C12FC95240073633B /* GDataReaderSubscription.h in Copy Static Header Files */,
+				083B609D12FC95240073633B /* GDataReaderUnreadCount.h in Copy Static Header Files */,
+				083B609E12FC95240073633B /* GDataServiceBaseExtensions.h in Copy Static Header Files */,
+				083B609F12FC95240073633B /* GDataServiceGoogleReader.h in Copy Static Header Files */,
+			);
+			name = "Copy Static Header Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		083B601A12FC886A0073633B /* libGoogleReaderLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGoogleReaderLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		083B601D12FC886A0073633B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		083B602112FC886A0073633B /* GoogleReaderLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleReaderLib-Prefix.pch"; sourceTree = "<group>"; };
+		083B602912FC89390073633B /* GDataEntryReaderEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryReaderEntry.h; sourceTree = "<group>"; };
+		083B602A12FC89390073633B /* GDataEntryReaderEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryReaderEntry.m; sourceTree = "<group>"; };
+		083B602B12FC89390073633B /* GDataFeedReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedReader.h; sourceTree = "<group>"; };
+		083B602C12FC89390073633B /* GDataFeedReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedReader.m; sourceTree = "<group>"; };
+		083B602D12FC89390073633B /* GDataQueryGoogleReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataQueryGoogleReader.h; sourceTree = "<group>"; };
+		083B602E12FC89390073633B /* GDataQueryGoogleReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataQueryGoogleReader.m; sourceTree = "<group>"; };
+		083B602F12FC89390073633B /* GDataReaderEntrySource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataReaderEntrySource.h; sourceTree = "<group>"; };
+		083B603012FC89390073633B /* GDataReaderEntrySource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataReaderEntrySource.m; sourceTree = "<group>"; };
+		083B603112FC89390073633B /* GDataReaderObjectBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataReaderObjectBase.h; sourceTree = "<group>"; };
+		083B603212FC89390073633B /* GDataReaderObjectBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataReaderObjectBase.m; sourceTree = "<group>"; };
+		083B603312FC89390073633B /* GDataReaderObjectSubscriptionsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataReaderObjectSubscriptionsList.h; sourceTree = "<group>"; };
+		083B603412FC89390073633B /* GDataReaderObjectSubscriptionsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataReaderObjectSubscriptionsList.m; sourceTree = "<group>"; };
+		083B603512FC89390073633B /* GDataReaderObjectUnreadCountsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataReaderObjectUnreadCountsList.h; sourceTree = "<group>"; };
+		083B603612FC89390073633B /* GDataReaderObjectUnreadCountsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataReaderObjectUnreadCountsList.m; sourceTree = "<group>"; };
+		083B603712FC89390073633B /* GDataReaderSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataReaderSubscription.h; sourceTree = "<group>"; };
+		083B603812FC89390073633B /* GDataReaderSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataReaderSubscription.m; sourceTree = "<group>"; };
+		083B603912FC89390073633B /* GDataReaderUnreadCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataReaderUnreadCount.h; sourceTree = "<group>"; };
+		083B603A12FC89390073633B /* GDataReaderUnreadCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataReaderUnreadCount.m; sourceTree = "<group>"; };
+		083B603B12FC89390073633B /* GDataServiceBaseExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceBaseExtensions.h; sourceTree = "<group>"; };
+		083B603C12FC89390073633B /* GDataServiceBaseExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceBaseExtensions.m; sourceTree = "<group>"; };
+		083B603D12FC89390073633B /* GDataServiceGoogleReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGoogleReader.h; sourceTree = "<group>"; };
+		083B603E12FC89390073633B /* GDataServiceGoogleReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGoogleReader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		083B601712FC886A0073633B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083B601E12FC886A0073633B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083B600F12FC886A0073633B = {
+			isa = PBXGroup;
+			children = (
+				083B601F12FC886A0073633B /* GoogleReaderLib */,
+				083B601C12FC886A0073633B /* Frameworks */,
+				083B601B12FC886A0073633B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		083B601B12FC886A0073633B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				083B601A12FC886A0073633B /* libGoogleReaderLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		083B601C12FC886A0073633B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				083B601D12FC886A0073633B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		083B601F12FC886A0073633B /* GoogleReaderLib */ = {
+			isa = PBXGroup;
+			children = (
+				083B602012FC886A0073633B /* Supporting Files */,
+				083B602912FC89390073633B /* GDataEntryReaderEntry.h */,
+				083B602A12FC89390073633B /* GDataEntryReaderEntry.m */,
+				083B602B12FC89390073633B /* GDataFeedReader.h */,
+				083B602C12FC89390073633B /* GDataFeedReader.m */,
+				083B602D12FC89390073633B /* GDataQueryGoogleReader.h */,
+				083B602E12FC89390073633B /* GDataQueryGoogleReader.m */,
+				083B602F12FC89390073633B /* GDataReaderEntrySource.h */,
+				083B603012FC89390073633B /* GDataReaderEntrySource.m */,
+				083B603112FC89390073633B /* GDataReaderObjectBase.h */,
+				083B603212FC89390073633B /* GDataReaderObjectBase.m */,
+				083B603312FC89390073633B /* GDataReaderObjectSubscriptionsList.h */,
+				083B603412FC89390073633B /* GDataReaderObjectSubscriptionsList.m */,
+				083B603512FC89390073633B /* GDataReaderObjectUnreadCountsList.h */,
+				083B603612FC89390073633B /* GDataReaderObjectUnreadCountsList.m */,
+				083B603712FC89390073633B /* GDataReaderSubscription.h */,
+				083B603812FC89390073633B /* GDataReaderSubscription.m */,
+				083B603912FC89390073633B /* GDataReaderUnreadCount.h */,
+				083B603A12FC89390073633B /* GDataReaderUnreadCount.m */,
+				083B603B12FC89390073633B /* GDataServiceBaseExtensions.h */,
+				083B603C12FC89390073633B /* GDataServiceBaseExtensions.m */,
+				083B603D12FC89390073633B /* GDataServiceGoogleReader.h */,
+				083B603E12FC89390073633B /* GDataServiceGoogleReader.m */,
+			);
+			path = GoogleReaderLib;
+			sourceTree = "<group>";
+		};
+		083B602012FC886A0073633B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				083B602112FC886A0073633B /* GoogleReaderLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		083B601912FC886A0073633B /* GoogleReaderLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083B602412FC886A0073633B /* Build configuration list for PBXNativeTarget "GoogleReaderLib" */;
+			buildPhases = (
+				083B609412FC94FA0073633B /* Copy Static Header Files */,
+				083B601612FC886A0073633B /* Sources */,
+				083B601712FC886A0073633B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleReaderLib;
+			productName = GoogleReaderLib;
+			productReference = 083B601A12FC886A0073633B /* libGoogleReaderLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		083B601112FC886A0073633B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = N/A;
+			};
+			buildConfigurationList = 083B601412FC886A0073633B /* Build configuration list for PBXProject "GoogleReaderLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 083B600F12FC886A0073633B;
+			productRefGroup = 083B601B12FC886A0073633B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				083B601912FC886A0073633B /* GoogleReaderLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		083B601612FC886A0073633B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083B604012FC89390073633B /* GDataEntryReaderEntry.m in Sources */,
+				083B604212FC89390073633B /* GDataFeedReader.m in Sources */,
+				083B604412FC89390073633B /* GDataQueryGoogleReader.m in Sources */,
+				083B604612FC89390073633B /* GDataReaderEntrySource.m in Sources */,
+				083B604812FC89390073633B /* GDataReaderObjectBase.m in Sources */,
+				083B604A12FC89390073633B /* GDataReaderObjectSubscriptionsList.m in Sources */,
+				083B604C12FC89390073633B /* GDataReaderObjectUnreadCountsList.m in Sources */,
+				083B604E12FC89390073633B /* GDataReaderSubscription.m in Sources */,
+				083B605012FC89390073633B /* GDataReaderUnreadCount.m in Sources */,
+				083B605212FC89390073633B /* GDataServiceBaseExtensions.m in Sources */,
+				083B605412FC89390073633B /* GDataServiceGoogleReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		083B602212FC886A0073633B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../libs/gdata-objectivec-client-1.11.0/source/build/${BUILD_STYLE}-${PLATFORM_NAME}/Headers",
+					/usr/include/libxml2,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		083B602312FC886A0073633B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../libs/gdata-objectivec-client-1.11.0/source/build/${BUILD_STYLE}-${PLATFORM_NAME}/Headers",
+					/usr/include/libxml2,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		083B602512FC886A0073633B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/GoogleReaderLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleReaderLib/GoogleReaderLib-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Headers",
+					/usr/include/libxml2,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_CFLAGS = (
+					"-D__DEBUG__",
+					"-D__NO_DEBUG_RSS__",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		083B602612FC886A0073633B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/GoogleReaderLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleReaderLib/GoogleReaderLib-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Headers",
+					/usr/include/libxml2,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08994AAD1365E76400E54D21 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/../libs/gdata-objectivec-client-1.11.0/source/build/${BUILD_STYLE}-${PLATFORM_NAME}/Headers",
+					/usr/include/libxml2,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		08994AAE1365E76400E54D21 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/GoogleReaderLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleReaderLib/GoogleReaderLib-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Headers",
+					/usr/include/libxml2,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		083B601412FC886A0073633B /* Build configuration list for PBXProject "GoogleReaderLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083B602212FC886A0073633B /* Debug */,
+				083B602312FC886A0073633B /* Release */,
+				08994AAD1365E76400E54D21 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		083B602412FC886A0073633B /* Build configuration list for PBXNativeTarget "GoogleReaderLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083B602512FC886A0073633B /* Debug */,
+				083B602612FC886A0073633B /* Release */,
+				08994AAE1365E76400E54D21 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 083B601112FC886A0073633B /* Project object */;
+}

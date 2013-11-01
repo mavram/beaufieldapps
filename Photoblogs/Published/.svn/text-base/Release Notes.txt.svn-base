@@ -1,0 +1,38 @@
+Enjoy Great Photography, Distraction-Free.
+
+PhotoBlogs Reader is a visual RSS reader that curates blogs and preserves the photographs for a comfortable and elegant viewing experience. It integrates and synchronizes with Google Reader to cache on your iPhone/iPod or iPad the photographs for later offline viewing. By stripping away the original layout elements from feed entries it optimizes all the photographs for display on your iPhone/iPod or iPad touch's screen. An app that gets out of the way so you can focus on photography.
+
+PhotoBlogs Reader Features:
+
+• Google Reader Integration
+It works with a Google Reader account to access subscriptions and posts. Your account credentials will be stored in a secure location using iOS Keychain services.
+
+• Subscriptions Management
+Elegant interface to manage photography subscriptions and keep in sync read, unread and starred cached items with the ones stored in the Google Reader account.
+
+• Local Caching
+Stores locally all the photos, covers and thumbnails for fast retrieval during subsequent sessions and to reduce the amount of downloaded data.
+
+• Aspect Ratio Preservation
+For each photo the aspect ratio is carefully preserved through out the entire interface (including subscriptions covers and photos thumbnails).
+
+• Past Entries Fetching
+Option to fetch the entire recordset of past entries available in the Google Reader account.
+
+• Offline Mode
+Full support to browse and enjoy locally cached photos when not connected to Internet.
+
+• Passcode Protected Lock Screen
+4-digit passcode lock screen for better user access control. 
+
+• "New Photos" Subscriptions
+Support for aggregating all the new photos into a single virtual feed.
+
+
+What's new in Version 1.7
+
+This release includes:
+
+• Support for "New Photos" subscription
+• Bug fixes
+• General performance improvements
