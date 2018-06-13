@@ -1,6 +1,6 @@
 # (defunct) BeaufieldAtelier iOS Apps
 
-Migrated from Mercurial.
+Migrated from SVN (via Mercurial/Bitbucket).
 
 Stack:
  * Objective-C
